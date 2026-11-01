@@ -47,8 +47,8 @@ refused (`t6.scripts.ffotd`). [Capture from your own running game](T6-CAPTURE.md
 with `cargo xtask t6-capture --pid PID`. A machine without a capture cannot
 start these maps yet: the library's Zombies selector then blocks every
 Black Ops 2 map that needs it
-(Origins, on IW4L's rules, does not) and names the file and the folders it is
-read from. Copying a capture you made from your own game into one of those
+(Origins, on IW4L's rules, does not) and displays a capture-required reason.
+Copying a capture you made from your own game into one of those
 folders makes the maps startable at the next visit to the page. The native
 selector also recognizes individually captured compiled modules in
 `captured/scripts_zm/`, including `maps/mp/gametypes_zm/_globallogic.gsc`.
